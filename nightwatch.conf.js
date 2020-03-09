@@ -14,7 +14,7 @@ module.exports = {
 
     "desiredCapabilities": {
       "chromeOptions": {
-        "args": ["--no-sandbox","--headless","--disable-dev-shm-usage"]
+        "args": ["--no-sandbox","--headless","--disable-dev-shm-usage","--whitelisted-ips"]
       }
     }
   }
