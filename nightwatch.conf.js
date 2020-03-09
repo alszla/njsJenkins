@@ -15,8 +15,8 @@ module.exports = {
     "desiredCapabilities": {
       "browserName": "chrome",
       "acceptSslCerts": true,
-      "chromeOptions" : {
-        "args" : ["--no-sandbox"]
+      "chromeOptions": {
+        "args": ["--no-sandbox","--disable-dev-shm-usage"]
       }
     }
   }
