@@ -10,6 +10,14 @@ module.exports = {
   "test_settings": {
     "default": {
       "launch_url": "https://wikipedia.org"
+    },
+
+    "desiredCapabilities": {
+      "browserName": "chrome",
+      "acceptSslCerts": true,
+      "chromeOptions" : {
+        "args" : ["--no-sandbox"]
+      }
     }
   }
 };
