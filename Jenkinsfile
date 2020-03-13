@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'agentgit'
+        label 'agent'
     }
     
     stages {
@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'npm test'
+                sh 'xvfb-run npm test'
             }
         }
     }
