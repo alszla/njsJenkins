@@ -1,5 +1,5 @@
 module.exports = {
-    'Example test case'(browser) {
+    'Example Test Case'(browser) {
         
         //Elements
         const MAINPAGE_LOGO = 'img.central-featured-logo';
